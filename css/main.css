@@ -545,6 +545,25 @@ header #logo img {
 		 -o-transition: opacity 0.25s ease-in-out 0s;
 		    transition: opacity 0.25s ease-in-out 0s;	
 }
+.margin-40 img{
+	float:right;
+
+}
+
+header #logo a {
+	/*background: url(../img/logo.png) no-repeat;*/
+	width: 190px;
+	height: 45px;
+	text-indent: -9999px;
+	display: block;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	
+	-webkit-transition: opacity 0.25s ease-in-out 0s;	
+	   -moz-transition: opacity 0.25s ease-in-out 0s;
+		 -o-transition: opacity 0.25s ease-in-out 0s;
+		    transition: opacity 0.25s ease-in-out 0s;	
+}
 
 header #logo a:hover {
 	opacity: 0.65;

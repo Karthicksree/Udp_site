@@ -349,7 +349,7 @@ margin: 0px;
 }
 
 #home-slider .overlay { 
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
 	background: #26292E url('../img/download.png') repeat top left;
@@ -375,7 +375,7 @@ margin: 0px;
 #home-slider .slider-text {
   position: fixed;
   top: 100px;
-  left: 376px;
+  left: 27.83%;
 	z-index: 2;	
 	text-align: center;
   padding-bottom: 30px;
@@ -385,7 +385,7 @@ margin: 0px;
 #home-slider .slider-text .divider {
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  /*width: 600px;*/
   height: 10px;
   background: transparent url('../img/divider.png') no-repeat bottom center;
 }
@@ -1801,4 +1801,10 @@ footer .credits {
       -ms-transition: none;
        -o-transition: none;
           transition: none;
+}
+
+/* affix */
+.affix {
+  position: fixed;
+  top: 217px;
 }

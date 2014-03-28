@@ -409,7 +409,8 @@ you can use the generic selector below, but it's slower:
 	content: "\e074";
 }
 .font-icon-map:before {
-	content: "\e075";
+	/*content: "\e075";*/
+	content: "\e0ba";
 }
 .font-icon-map-marker:before {
 	content: "\e076";
@@ -439,7 +440,8 @@ you can use the generic selector below, but it's slower:
 	content: "\e07e";
 }
 .font-icon-layer:before {
-	content: "\e07f";
+	/*content: "\e07f";*/
+	content: "\e07d";
 }
 .font-icon-key:before {
 	content: "\e080";
@@ -619,7 +621,8 @@ you can use the generic selector below, but it's slower:
 	content: "\e0ba";
 }
 .font-icon-cog:before {
-	content: "\e0bb";
+	/*content: "\e0bb";*/
+	content: "\e0ce";
 }
 .font-icon-cloud:before {
 	content: "\e0bc";

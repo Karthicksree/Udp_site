@@ -1,3 +1,17 @@
+
+var bxslide = $('#welcome-message ul').bxSlider({
+        mode: 'vertical',
+        auto: true,
+        minSlides: 1,
+        responsive: true,
+        touchEnabled: true,
+        pager: false,
+        controls: false,
+        useCSS: false,
+        pause: 10000
+    });
+
+
 jQuery(function($){
 
 var CHAKRA = window.CHAKRA || {};
@@ -77,19 +91,22 @@ CHAKRA.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content">Chakra</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content">Responsive Design</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content">FullScreen Gallery</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">Showcase Your Work</div>', thumb : '', url : ''}  
+											{image : 'img/slider-images/background1.png', title : '<div class="slide-content">UD Products</div><div class="slogan">We deliver products</div>', thumb : '', url : ''},
+											//{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content">Responsive Design</div>', thumb : '', url : ''},
+											//{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content">FullScreen Gallery</div>', thumb : '', url : ''},
+											//{image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">Showcase Your Work</div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
 		progress_bar			:	0,			// Timer for each slide							
 		mouse_scrub				:	0
+
 		
 	});
 
 }
+
+
 
 
 /* ==================================================
@@ -534,3 +551,4 @@ $(window).resize(function(){
 });
 
 });
+

@@ -323,14 +323,44 @@ h3.spec {
 	height: 100%;
 }
 
+#welcome-message {
+text-align: center;
+}
+
+#welcome-message ul {
+margin: 0px;
+}
+
+#welcome-message ul li {
+  list-style: none;
+}
+
+#welcome-message ul li h1 {
+ font-size: 35px; 
+ margin-bottom: 5px;
+  color: white;
+}
+
+#welcome-message ul li p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+}
+
 #home-slider .overlay { 
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: #26292E;
-	opacity: 0.7;
-	filter: alpha(opacity=70);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	background: #26292E url('../img/download.png') repeat top left;
+  opacity: .4;
+	/*opacity: 0.7;*/
+	/*filter: alpha(opacity=70);*/
 	z-index: 0;
+}
+
+#slidecaption { 
+  line-height:46px !important;
 }
 
 #home-slider .container {
@@ -338,26 +368,43 @@ h3.spec {
 }
 
 #home-slider .container .row {
-	position: absolute;
+  position: absolute;
 	bottom: 100px;
 }
 
 #home-slider .slider-text {
-	position: relative;
+  position: fixed;
+  top: 100px;
+  left: 376px;
 	z-index: 2;	
 	text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 200px;
+}
+
+#home-slider .slider-text .divider {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 10px;
+  background: transparent url('../img/divider.png') no-repeat bottom center;
+}
+
+#home-slider .slider-text .slogan {
+  font-size: 30px;
+	font-weight: 300;
 }
 
 #home-slider #slidecaption {
 	float: none;
-	text-shadow: none;	
+  text-shadow: none;	
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
-	font-weight: 300;
+	font-weight: 400;
 	color: #FFFFFF;
 	letter-spacing: -2px;
 	line-height: 1em;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin: 0;
 }
 

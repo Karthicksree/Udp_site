@@ -301,8 +301,11 @@ h3.spec {
 ================================================== */
 
 .sep {	
-	margin: 0 0 70px;
 	text-align: center;
+}
+
+#desc {
+	padding-top: 70px;
 }
 
 .sep .separator {
@@ -375,7 +378,7 @@ margin: 0px;
 #home-slider .slider-text {
   position: fixed;
   top: 100px;
-  left: 27.83%;
+  left: 35.83%;
 	z-index: 2;	
 	text-align: center;
   padding-bottom: 30px;
